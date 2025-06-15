@@ -115,7 +115,7 @@ requirejs(['jquery-color', 'jquery-rotate', 'prefixfree', 'modernizr', 'fittext'
 
 		$('.weather').fadeIn();
 
-		var apiKey = '21d0532e47c34617290c7e73f96601ac'
+		var apiKey = 'e053360b043c07bb5fa41f1d8c594f51'
 		var url = 'https://api.openweathermap.org/data/2.5/weather?q='+window.city+'&callback=window.processWeather&units=metric&appid=' + apiKey;
 
 		$.getScript(url)
